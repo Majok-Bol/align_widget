@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget{
               margin: EdgeInsets.all(10),
               padding:EdgeInsets.all(10) ,
               color: Colors.black,
-              child:Center(child: Text('My name is Henry Ford',style: TextStyle(color: Colors.white),),),
+              child:Center(child: Text('My name is Napoleon Hill',style: TextStyle(color: Colors.white),),),
             ),
           ),
           Align(
