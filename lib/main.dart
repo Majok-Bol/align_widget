@@ -7,7 +7,7 @@ class MyApp extends StatelessWidget{
   Widget build(BuildContext context){
     return MaterialApp(
       home: Scaffold(
-        appBar: AppBar(title: Text('Align Widget',style: TextStyle(color: Colors.white,fontSize: 20),),centerTitle: true,),
+        appBar: AppBar(title: Text('Align Widget',style: TextStyle(color: Colors.white,fontSize: 20),),centerTitle: true,backgroundColor: Colors.purple,),
       ),
     );
   }
