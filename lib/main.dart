@@ -8,25 +8,36 @@ class MyApp extends StatelessWidget{
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        // backgroundColor: Colors.blueGrey,
-        appBar: AppBar(title: Text('Align using Stack Widget',style: TextStyle(color: Colors.white,fontSize: 20),),centerTitle: true,backgroundColor: Colors.purple,),
+        backgroundColor: Colors.blueGrey,
+        appBar: AppBar(title: Text('Alignment using Stack Widget',style: TextStyle(color: Colors.white,fontSize: 20),),centerTitle: true,backgroundColor: Colors.purple,),
         body:Stack(children: [
           Align(
             alignment: Alignment.topLeft,
             child: Container(
-              width:150,
-              height:150,
+              width:250,
+              height:250,
               margin: EdgeInsets.all(10),
               padding:EdgeInsets.all(10) ,
               color: Colors.black,
               child:Center(child: Text('My name is Henry Ford',style: TextStyle(color: Colors.white),),),
             ),
           ),
+          Align(
+            alignment: Alignment.center,
+            child: Container(
+              width:250,
+              height:250,
+              margin: EdgeInsets.all(10),
+              padding:EdgeInsets.all(10) ,
+              color: Colors.deepPurple,
+              child:Center(child: Text('I am a full stack developer',style: TextStyle(color: Colors.white),),),
+            ),
+          ),
         Align(
           alignment: Alignment.topRight,
           child: Container(
-            width: 150,
-            height: 150,
+            width: 250,
+            height: 250,
             margin: EdgeInsets.all(10),
             padding:EdgeInsets.all(10) ,
             color: Colors.blue,
@@ -36,8 +47,8 @@ class MyApp extends StatelessWidget{
       Align(
         alignment: Alignment.bottomLeft,
         child: Container(
-          width: 150,
-          height: 150,
+          width: 250,
+          height: 250,
           margin: EdgeInsets.all(10),
           padding:EdgeInsets.all(10) ,
           color: Colors.green,
@@ -47,8 +58,8 @@ class MyApp extends StatelessWidget{
       Align(
         alignment: Alignment.bottomRight,
         child: Container(
-          width: 150,
-          height: 150,
+          width: 250,
+          height: 250,
           margin: EdgeInsets.all(10),
           padding:EdgeInsets.all(10) ,
           color: Colors.red,
